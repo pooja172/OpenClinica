@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Google">
+  <test name="tst_ff_google">
+ <parameter name="browser" value="firefox"/> 
+    <classes>
+      <class name="newtest.Search_withoutterm"/>
+    </classes>
+  </test> <!-- t1 -->
+  
+  <test name="t2">
+ <parameter name="browser" value="chrome"/> 
+    <classes>
+      <class name="newtest.Search_withoutterm"/>
+    </classes>
+  </test>
+  
+</suite> <!-- s1 -->

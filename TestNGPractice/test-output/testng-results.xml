@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Google" duration-ms="18850" started-at="2021-03-21T20:14:48 EDT" finished-at="2021-03-21T20:15:07 EDT">
+    <groups>
+    </groups>
+    <test name="tst_ff_google" duration-ms="10096" started-at="2021-03-21T20:14:48 EDT" finished-at="2021-03-21T20:14:58 EDT">
+      <class name="newtest.Search_withterm">
+        <test-method status="PASS" signature="search(java.lang.String)[pri:0, instance:newtest.Search_withterm@47ef968d]" name="search" duration-ms="10065" started-at="2021-03-21T20:14:48 EDT" finished-at="2021-03-21T20:14:58 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+      </class> <!-- newtest.Search_withterm -->
+    </test> <!-- tst_ff_google -->
+    <test name="t2" duration-ms="8733" started-at="2021-03-21T20:14:58 EDT" finished-at="2021-03-21T20:15:07 EDT">
+      <class name="newtest.Search_withterm">
+        <test-method status="PASS" signature="search(java.lang.String)[pri:0, instance:newtest.Search_withterm@67205a84]" name="search" duration-ms="8730" started-at="2021-03-21T20:14:58 EDT" finished-at="2021-03-21T20:15:07 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+      </class> <!-- newtest.Search_withterm -->
+    </test> <!-- t2 -->
+  </suite> <!-- Google -->
+</testng-results>
